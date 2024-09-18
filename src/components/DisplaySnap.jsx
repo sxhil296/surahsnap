@@ -9,7 +9,7 @@ const DisplaySnap = ({ ayah }) => {
         className="mt-6 bg-gradient-to-r from-green-600 via-emerald-600 to-teal-600  p-4 flex justify-center items-center flex-col rounded-md  w-full max-w-md min-h-[200px] md:min-h-[250px]"
       >
         {/* Arabic Ayah */}
-        <p className="text-center text-white text-2xl mb-4 pt-6" dir="rtl">
+        <p className="text-center text-white text-xl mb-4 pt-6" dir="rtl">
           {ayah.arabic}
         </p>
 
