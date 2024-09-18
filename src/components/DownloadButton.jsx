@@ -25,7 +25,7 @@ const DownloadButton = ({ targetId }) => {
   return (
     <div className="flex justify-center">
         <button
-      className="px-4 py-2 rounded-md bg-blue-500  hover:bg-blue-600 text-white font-medium mt-6"
+      className="px-4 py-2 rounded-[4px] shadow-md bg-teal-600  hover:bg-teal-700 text-white font-medium mt-6"
       onClick={handleDownload}
     >
       Download
